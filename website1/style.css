@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(41, 37, 37, 0.7), rgba(0, 0, 0, 0.7)),  url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(41, 37, 37, 0.7), rgba(0, 0, 0, 0.7)),  url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: right;
+    width: 100%;
+}
+.logo{
+    margin-left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 3.5vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1vw;
+}
+.navbar a:hover{
+    color: rgb(250, 62, 78);
+}
+.banner{
+	width: 100%;
+	height: 45vw;
+	background: none;
+	display: flex;
+	justify-content: left;
+	overflow: hidden;
+}
+.banner div{
+	width: 100%;
+	text-align: left;
+}
+.banner div h1{
+	position: relative;
+	top:5vw;
+	left: 6vw;
+	letter-spacing: 0.4vw;
+	font-size:7vw;
+	color:white;
+    font-weight: 450
+}
+.banner div h2{
+    position: relative;
+    margin-top: 4vw;
+    margin-left: 6vw;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.1vw;
+    font-size: 1.3vw;
+}
+.banner div button{
+    border: none;
+    outline: none;
+    background-color:rgb(250, 62, 78);
+    font-size: 1.1vw;
+    padding: 1vw;
+    border-radius: 0.5vw;
+    letter-spacing: 0.2vw;
+    transition: transform 0.5s;
+    margin-left: 6vw;
+    margin-top: 4vw
+    
+}
+.banner div button:hover{
+    transform:translateY(-1vw);
+}
+
+.row{
+    position: relative;
+    width: 95%;
+    height: 46vw;
+    border: rgb(71, 50, 33);
+    border-width: 0.005vw;
+    border-style: solid;
+    background-color: black;
+    margin: 2.5%;
+    display: flex;
+}
+.col1 {
+    position: relative;
+    width: 30%;
+    height: 46vw;   
+    border: rgb(71, 50, 33);
+    border-width: 0.005vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-style: solid;
+    background-image: url(images/pic1.jpg);
+    background-size: cover;
+    flex-basis: 50%;
+
+}
+.col1 h1{
+    position: relative;
+    color: white;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    padding-bottom: 4vw;
+    padding-top: 7.5vw;
+    text-align: left;
+    font-weight: 300;
+    letter-spacing: 0.1vw;
+    font-size: 2vw;
+}
+.col1 p{
+    color: white;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    text-align: left;
+    letter-spacing:0.08vw;
+    font-size: 1vw;
+    line-height: 2vw;
+}
+.card{
+    height: 20vw;
+    border-radius: 1vw;
+    border-color:rgb(71, 50, 33);
+    padding: 2.5vw 2.5vw;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 2.5% 2.5%;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    width: 45%;
+    transition: transform 0.5s;
+}
+.card h5{
+    color: rgb(250, 62, 78);
+    font-size: 1.2vw;
+    text-align: center;
+    letter-spacing: 0.1vw;
+    margin: 10px;
+    opacity: 1.0;
+}
+.card p{
+    color: black;
+    line-break: normal;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    font-size: 1vw;
+}
+.col2{
+    width:70%;
+}
+
+.card button{
+    border: none;
+    outline: none;
+    background-color:rgb(250, 62, 78);
+    font-size: 1.1vw;
+    margin-left: 2.5vw;
+    padding: 1vw;
+    border-radius: 0.5vw;
+    letter-spacing: 0.2vw;
+    transition: transform 0.5s;
+    margin-top: 2vw;
+}
+.card1 {
+    background-image: url(images/card1.jpg);
+    background-color: rgba(221, 203, 203, 0.6);
+    background-blend-mode: lighten;
+}
+.card2 {
+    background-image: url(images/card2.jpg);
+    background-color: rgba(216, 197, 197, 0.6);
+    background-blend-mode: lighten;
+}
+.card3 {
+    background-image: url(images/card3.png);
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+.card4 {
+    background-image: url(images/card4.jpg);
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+.card:hover{
+    transform:translateY(-1vw);
+}
+.card button:hover{
+    transform:translateY(-1vw);
+}
+.container1{
+    display: flex;
+    height: 10vw;
+    margin-top: 6vw;
+    margin: 10%;
+    width: 80%;
+}
+.item1{
+    flex: 20%;
+    text-align: center;
+}
+.item2{
+    flex: 20%;
+    text-align: center;
+}
+.item3{
+    flex: 20%;
+    text-align: center;
+}
+.item4{
+    flex: 20%;
+    text-align: center;
+}
+.container1 hr{
+    margin: 5%;
+    opacity: 0.5;
+}
+.container1 h3{
+    color:rgb(250, 62, 78);
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+.container1 h4{
+    color:white;
+    text-align: center;
+    margin: 0.5vw;
+    opacity: 0.6;
+    font-weight: 100;
+    font-size: 1.1vw;
+}
+.container2 {
+    display: flex;
+    height: 38vw;
+    margin: 10vw;
+    width: 80vw;
+    margin-top: 4vw;
+    border: rgb(71, 50, 33);
+    border-width: 0.005vw;
+    border-style: solid;
+}
+.item5 {
+    width: 50%;
+    text-align: center;
+    border: rgb(71, 50, 33);
+    border-width: 0.005vw;
+    border-style: solid;
+    background-image: url(images/gif2.gif);
+}
+.item6 {
+    width: 50%;
+    text-align: left;
+    border: rgb(71, 50, 33);
+    border-width: 0.005vw;
+    border-style: solid;
+    background-color: black;
+    justify-content: space-around;
+}
+.item5 h6{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    margin-top:13vw;
+    line-break:loose;
+    letter-spacing: 0.2vw;
+}
+.item6 p{
+    color: white;
+    margin-top: 11vw;
+    margin-left: 11vw;
+    margin-right: 11vw;
+    margin-bottom: 5vw;
+    opacity: 0.6;
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+.item6 button {
+    border: none;
+    outline: none;
+    background-color:rgb(250, 62, 78);
+    font-size: 1.1vw;
+    padding: 1vw;
+    border-radius: 0.5vw;
+    letter-spacing: 0.2vw;
+    transition: transform 0.5s;
+    margin-left: 11vw;
+    transition: transform 0.5s;
+}
+.item6 button:hover{
+    transform:translateY(-1vw);
+}
+.container3 h6{
+    color: white;
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
+    font-weight: 200;
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.container3 a{
+    color: rgb(250, 62, 78);
+    font-size: 2.2vw;
+    font-weight: 500;
+    letter-spacing: 0.3vw;
+    padding-left: 40%;
+}
+.container4{
+    display: flex;
+    height: 25vw;
+    margin-left: 22vw;
+    width: 40vw;
+    margin-top: 8vw;
+    border: rgb(71, 50, 33);
+    border-width: 7vw;
+    border-style: solid;
+    background-image: url(images/gif1.gif);
+    background-size: cover;
+}
+.container4 h6{
+    color: white;
+    opacity: 0.6;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 8%;
+    text-align: left;
+    font-size: 1.3vw;
+    font-weight: 80;
+    line-height: 2vw;
+}
+.container4 button{
+    margin: 20%;
+    padding: 1vw;
+    border-radius: 0.5vw;
+    letter-spacing: 0.2vw;
+    transition: transform 0.5s;
+    margin-left: 38%;
+    background-color:rgb(250, 62, 78);
+    border: none;
+    outline: none;
+    font-size: 1.2vw;
+    transition: transform 0.5s;
+}
+.container4 button:hover{
+    transform:translateY(-1vw);
+}
+.container5{
+    background-color: none;
+    margin: 5%;
+}
+.container5 h6{
+    color: white;
+    font-size: 1.4vw;
+    font-weight: 100;
+    letter-spacing: 0.1vw;
+    margin: 2vw;
+    margin-left: 1vw;
+}
+.container5 a{
+    color: white;
+    opacity: 0.6;
+    font-size: 1.2vw;
+    margin: 2vw;
+    margin-left: 1vw;
+}
+.container5 button{
+    padding: 1vw;
+    border-radius: 0.5vw;
+    letter-spacing: 0.2vw;
+    transition: transform 0.5s;
+    background-color:rgb(250, 62, 78);
+    border: none;
+    outline: none;
+    font-size: 1.2vw;
+    transition: transform 0.5s;
+    margin: 2vw;
+    margin-left: 1vw;
+}
+.container5 button:hover{
+    transform:translateY(-1vw);
+}
+
+

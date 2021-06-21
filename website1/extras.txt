@@ -1,0 +1,54 @@
+.container2{
+    position: relative;
+    background-color: black;
+    height: 100%;
+    background-size: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+linear-gradient(rgba(41, 37, 37, 0.7), rgba(0, 0, 0, 0.7)), 
+
+
+
+
+
+
+
+
+<div class="box1">
+	<h1>“The future is ours to shape. I feel we are in a race that we need to win. It’s a race between the growing power of the technology and the growing wisdom we need to manage it.”<br><br> ~Max Tegmark</h1>
+</div>
+
+
+
+.box1 {
+    background-image: url(images/gif1.gif);
+    background-repeat: repeat;
+    width: 100%;
+    height: 30%;
+    box-shadow: black;
+    padding: 60px;
+}
+.box1 h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+
+.banner div button{
+    border: none;
+    outline: none;
+    background-color:rgb(247, 62, 16);
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    
+}
